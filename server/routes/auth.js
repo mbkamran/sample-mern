@@ -4,6 +4,7 @@ const bcrypt = require("bcrypt");
 const Joi = require("joi");
 
 router.post("/", async (req, res) => {
+	console.log('Request recieved')
 	try {
 		const { error } = validate(req.body);
 		if (error)
