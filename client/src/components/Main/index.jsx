@@ -30,33 +30,33 @@ const Main = () => {
   return (
     <div className="main">
       <Screen2
-        imageText="Helllooooooooo ❤️"
+        title="Helllooooooooo 💖"
         bgColor={colors.red}
         textColor={colors.white}
-        title="Estes são Ursinho e Pandinha"
-        text="Eles se conhecem a um bom tempo, e foram amigos, mas hoje são além disso... eles estão namorando."
-        btnText="Saiba mais"
+        text="meri pyaari pyaari jaaannnnnn!!!! 🥰🥰🥰"
+        btnText="Next <3"
         sequency="1"
       />
-      <Screen
-        imageUrl={ursinho_estudando}
-        bgColor={colors.blue}
+      <Screen2
+        title="Today is 14th Feburary...... 😚😚"
+        maxWidth="900px"
+        bgColor={colors.red}
         textColor={colors.white}
-        title="Ursinho"
-        text="O ursinho é muito estudioso e engraçado sempre faz a pandinha rir, mas ele é bem lerdo e nem sempre entende o que a padinha quer dizer."
-        btnText="Continuar"
+        text="(which means..........)"
+        btnText="Next Next <3"
         sequency="2"
       />
-      <Screen
-        imageUrl={pandinha}
-        bgColor={colors.pink}
+      <Screen2
+        fontWeight="bold"
+        title="HAPPY VALENTINE'S DAY!!!! 💝🧸"
+        maxWidth="900px"
+        bgColor={colors.red}
         textColor={colors.white}
-        title="Pandinha"
-        text="A pandinha é muito fofinha, sempre se preocupa com o próximo, mas ela não tem paciência alguma. E tem um jeito diferente de mostrar o que sente..."
-        btnText="Continuar"
+        text="meri jaaannnn Fatimaaa!!!! 😇😇"
+        btnText="Moree..... ;)"
         sequency="3"
       />
-      <Screen
+      <Screen2
         imageUrl={ursinho_S2_pandinha}
         bgColor={colors.red}
         textColor={colors.white}

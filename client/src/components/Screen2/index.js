@@ -5,12 +5,9 @@ import { Link } from "react-scroll";
 const Screen2 = (props) => {
   return (
     <div id={Number(props.sequency)} className="screen-full" style={{background: props.bgColor, color: props.textColor}}>
-      <div className="container">
-        <header>
-          <div>{props.imageText}</div>
-        </header>
-        <div>
-          <h1><small>{props.title}</small></h1>
+      <div className="container" style={{maxWidth: props.maxWidth, fontWeight: props.fontWeight}}>
+        <div className="content">
+          <h1>{props.title}</h1>
           <p>{props.text}</p>
         </div>
         <footer>

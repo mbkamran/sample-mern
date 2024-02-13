@@ -9,7 +9,7 @@
   }
   
   .screen-full .container {
-    max-width: 580px;
+    max-width: 700px;
   }
   
   @media(max-width: 680px) {
@@ -30,7 +30,19 @@
     max-height: 250px;
     max-width: 75%;
   }
+
+  @import url(https://db.onlinewebfonts.com/c/5237a1e3a872fc2e31712575aa39235b?family=Visby+Round+CF+Heavy);
   
+  @font-face {
+    font-family: "Visby Round CF Heavy";
+    src: url("https://db.onlinewebfonts.com/t/5237a1e3a872fc2e31712575aa39235b.eot");
+    src: url("https://db.onlinewebfonts.com/t/5237a1e3a872fc2e31712575aa39235b.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5237a1e3a872fc2e31712575aa39235b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5237a1e3a872fc2e31712575aa39235b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5237a1e3a872fc2e31712575aa39235b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5237a1e3a872fc2e31712575aa39235b.svg#Visby Round CF Heavy")format("svg");
+}
+
   .screen-full header {
     display: flex;
     flex-direction: column;
@@ -42,17 +54,19 @@
   .screen-full div {
     margin-bottom: 32px;
   }
-  
+
   .screen-full h1 {
-    font-size: 28px;
+    font-size: 80px;
     margin-bottom: 16px;
     text-align: center;
+    font-family: "Visby Round CF Heavy"; /* Update the font-family here */
   }
   
   .screen-full p {
     font-size: 16px;
     line-height: 32px;
     text-align: center;
+    font-family: "Visby Round CF Heavy";
   }
   
   .screen-full footer {
@@ -63,7 +77,7 @@
   }
   
   .screen-full a {
-    background-color: #FFF;
+    background-color: #FFC0CB; /* Light pink button background */
     padding: 16px 24px;
     border-radius: 10px;
     border: none;
