@@ -1,4 +1,5 @@
 import { Route, Routes, Navigate } from "react-router-dom";
+// import { AnimatePresence } from "framer-motion";
 import Main from "./components/Main";
 import Signup from "./components/Singup";
 import Login from "./components/Login";
