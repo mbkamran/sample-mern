@@ -3,6 +3,7 @@ import "./Main.css";
 
 import colors from "../utils/colors";
 import Screen from "../Screen";
+import Screen2 from "../Screen2";
 
 import ursinho_pandinha_ok from "../assets/ursinho_pandinha_ok.gif";
 import ursinho_estudando from "../assets/ursinho_estudando.gif";
@@ -28,8 +29,8 @@ const Main = () => {
 
   return (
     <div className="main">
-      <Screen
-        imageUrl={ursinho_pandinha_ok}
+      <Screen2
+        imageText="Helllooooooooo ❤️"
         bgColor={colors.red}
         textColor={colors.white}
         title="Estes são Ursinho e Pandinha"
